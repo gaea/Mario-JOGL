@@ -1,0 +1,6 @@
+ #! /bin/bash
+export CLASSPATH=.:../Lib/jogl/lib/ext/gluegen-rt.jar:../Lib/jogl/lib/ext/jogl.jar
+export LD_LIBRARY_PATH=../Lib/jogl/lib/i586
+echo $LD_LIBRARY_PATH
+cd Bin
+java Ventana

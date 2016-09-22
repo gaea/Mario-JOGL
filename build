@@ -1,0 +1,2 @@
+ #! /bin/bash
+javac -d Bin -cp Lib/jogl/lib/ext/gluegen-rt.jar:Lib/jogl/lib/ext/jogl.jar Source/*.java
